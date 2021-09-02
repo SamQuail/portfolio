@@ -14,7 +14,7 @@
 		<link rel="icon" href="./images/favicon.ico" type="image/x-icon">
 	</head>
 	<body class="is-preload">
-		<script src="./assets/js/main.js"></script>
+		
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -109,7 +109,7 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="#">
+								<form  method="GET" action="#">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -125,7 +125,7 @@
 										</div>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" onclick="mailFunction" /></li>
+										<li><input type="submit" value="Send Message" class="primary" onclick="location.href=' '" /></li>
 										<li><input type="reset" value="Clear" /></li>
 									</ul>
 								</form>
@@ -152,6 +152,7 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src="https://smtpjs.com/v3/smtp.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -159,6 +160,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/mailsender.js"></script>
 
 	</body>
 </html>
